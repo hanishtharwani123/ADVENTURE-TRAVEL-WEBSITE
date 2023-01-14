@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&family=Roboto:ital,wght@1,500&display=swap');
+
+@font-face {
+    font-family: centra;
+    src: url(CentraNo2-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "centra";
+}
+
+body {
+    background: #fff;
+}
+
+/************ HOME SECTION ************/
+.header {
+    height: 100vh;
+    width: 100%;
+    background: url(images/north-star-2869817.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding: 1.6vw 3.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.3vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.logo:hover {
+    color: rgb(255, 0, 166);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    font-size: 1.1vw;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 0vw 2vw;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1.2vw;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.advent {
+    font-size: 3.5vw;
+    color: #fff;
+}
+
+.join {
+    font-size: 2vw;
+    color: #fff;
+}
+
+.para {
+    font-size: 1.3vw;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 26vw;
+    margin-left: 18vw;
+}
+
+#email {
+    padding: 1.1vw 1.8vw;
+    width: 43vw;
+    border-radius: 1.5vw;
+    border: none;
+    color: black;
+    outline: none;
+}
+
+#email::placeholder {
+    font-size: 1.1vw;
+}
+
+.btn {
+    padding: 1vw 2vw;
+    font-size: 1.1vw;
+    background: rgb(255, 0, 166);
+    border-radius: 1.5vw;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: black;
+    color: #fff;
+}
+
+
+/************ RECENT DEALS SECTION ************/
+
+.recent {
+    height: 41vw;
+    width: 100%;
+}
+
+.heading {
+    font-size: 3vw;
+    color: rgb(5, 5, 133);
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1 {
+    box-shadow: 0 0 25px #6f6e6f;
+    border-radius: 12px;
+    width: 20vw;
+    transition: transform .5s ease-out;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.grid-sec {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 4vw;
+    margin-top: 5vw;
+}
+
+.img-deal {
+    width: 20vw;
+    height: 14vw;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.word {
+    color: rgb(5, 5, 133);
+    font-size: 1.1vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.s-word {
+    color: rgb(98, 98, 99);
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1vw;
+}
+
+/************ HOW IT WORKS SECTION ************/
+
+.works {
+    height: 41vw;
+    width: 100%;
+    background: rgb(237, 235, 235);
+}
+
+.how {
+    text-align: center;
+    padding-top: 45px;
+    font-size: 3vw;
+    color: rgb(5, 5, 133);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card2 {
+    box-shadow: 0 0 25px rgb(5, 5, 133);
+    border-radius: 12px;
+    width: 20vw;
+    transition: transform .5s ease-out;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.flexx {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 4vw;
+    margin-top: 5vw;
+}
+
+.img-work {
+    width: 20vw;
+    height: 14vw;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.works1 {
+    color: rgb(5, 5, 133);
+    font-size: 1.1vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.s-work {
+    color: rgb(98, 98, 99);
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1vw;
+}
+
+/************ SIGN UP SECTION ************/
+
+.signup {
+    height: 48.5vw;
+    width: 100%;
+    background: url(images/blue-4145659.jpg);
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.source {
+    width: 45vw;
+}
+
+.sign-save {
+    font-size: 5vw;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Kalam', cursive;
+}
+
+.your {
+    font-size: 3.4vw;
+    color: rgb(0, 255, 238);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.line {
+    font-size: 1.8vw;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobile {
+    width: 48vw;
+}
+
+/************ POPULAR DESTINATION SECTION ************/
+
+.popular {
+    width: 100%;
+    height: 84vw;
+}
+
+.destin {
+    text-align: center;
+    padding-top: 45px;
+    font-size: 3vw;
+    color: rgb(5, 5, 133);
+    font-family: 'Poppins', sans-serif;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: repeat(8, 10.3vw);
+    grid-template-rows: repeat(8, 2.5vw);
+    margin-top: 5vw;
+    grid-gap: 5.3vw 4.2vw;
+    justify-content: center;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.box1 {
+    position: "relative";
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.box2 {
+    position: "relative";
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.box3 {
+    position: "relative";
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.box4 {
+    position: "relative";
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.box5 {
+    position: "relative";
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.explore {
+    color: rgb(5, 5, 133);
+    font-size: 2.6vw;
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/********** FOOTER ************/
+
+.across {
+    height: 27vw;
+    width: 100%;
+    background: rgb(5, 5, 133);
+}
+
+.popular1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.3vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+
+.early {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5.5vw;
+}
+
+.class {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 15vw;
+}
+
+.foot {
+    height: 15vw;
+    width: 100%;
+    background: rgb(255, 241, 215);
+}
+
+.paragr {
+    padding-top: 3vw;
+    font-size: 1.2vw;
+    color: rgb(104, 103, 103);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.cont {
+    padding: 1vw 1vw;
+    color: #fff8ff;
+    background: #0e0e88;
+    font-size: 1.6vw;
+    border-radius: 11px;
+    border: none;
+    margin-right: 2vw;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.cont:hover {
+    color: #fff;
+    background: rgb(255, 2, 2);
+}
+
+.logo2 {
+    font-size: 2.3vw;
+    font-weight: bold;
+    color: rgb(255, 0, 166);
+    transition: .5s;
+    margin-left: 2vw;
+}
+
+
+
+
+/************ MAKING WEBSITE RESPONSIVE************/
+
+@media screen and (max-width:900px) {
+    .header {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .logo {
+        font-size: 4.6vw;
+    }
+
+    nav ul li {
+        font-size: 1.9vw;
+    }
+
+    .main {
+        grid-gap: 1.9vw;
+    }
+
+    .advent {
+        font-size: 5.4vw;
+    }
+
+    .join {
+        font-size: 4vw;
+    }
+
+    .para {
+        font-size: 2.5vw;
+        width: 55vw;
+        margin-left: 18.6vw;
+    }
+
+    .subs {
+        margin-top: 10px;
+    }
+
+    #email {
+        padding: 2vw 1.8vw;
+        width: 45vw;
+        border-radius: 1vw;
+    }
+
+    #email::placeholder {
+        font-size: 2vw;
+    }
+
+    .btn {
+        padding: 1.4vw 2vw;
+        font-size: 2.5vw;
+        border-radius: 1vw;
+    }
+
+    .heading {
+        font-size: 4.5vw;
+    }
+
+    .recent {
+        height: 90vw;
+    }
+
+    .card1 {
+        width: 30vw;
+    }
+
+    .grid-sec {
+        grid-template-columns: auto auto;
+        grid-gap: 6vw;
+    }
+
+    .img-deal {
+        width: 30vw;
+        height: 19vw;
+    }
+
+    .word {
+        font-size: 1.8vw;
+    }
+
+    .s-word {
+        font-size: 1.3vw;
+    }
+
+    .works {
+        height: 59vw;
+    }
+
+    .how {
+        font-size: 4.5vw;
+    }
+
+    .card2 {
+        width: 28vw;
+    }
+
+    .flexx {
+        grid-gap: 3.6vw;
+        margin-top: 5vw;
+    }
+
+    .img-work {
+        width: 28vw;
+        height: 20vw;
+    }
+
+    .works1 {
+        font-size: 1.8vw;
+    }
+
+    .s-work {
+        font-size: 1.3vw;
+    }
+
+
+    .signup {
+        height: 69.5vw;
+    }
+
+    .source {
+        width: 52vw;
+    }
+
+    .sign-save {
+        font-size: 7.8vw;
+    }
+
+    .your {
+        font-size: 3.9vw;
+    }
+
+    .line {
+        font-size: 2.8vw;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .mobile {
+        width: 48vw;
+    }
+
+    .popular {
+        width: 100%;
+        height: 109vw;
+    }
+
+    .destin {
+        font-size: 4.5vw;
+    }
+
+    .country {
+        grid-gap: 6.8vw 5.5vw;
+    }
+
+
+    .explore {
+        font-size: 3.4vw;
+    }
+
+    .across {
+        height: 35vw;
+    }
+
+    .popular1 {
+        font-size: 3.7vw;
+    }
+
+    .early {
+        margin-top: 6vw;
+    }
+
+    .class {
+        font-size: 1.4vw;
+        width: 20vw;
+    }
+
+    .foot {
+        height: 27vw;
+    }
+
+    .paragr {
+        padding-top: 3vw;
+        font-size: 1.6vw;
+    }
+
+    .bot {
+        margin-top: 6vw;
+    }
+
+    .cont {
+        padding: 1.8vw 2.3vw;
+        font-size: 1.9vw;
+    }
+
+    .logo2 {
+        font-size: 4.1vw;
+    }
+
+}
+
+/************ MAKING WEBSITE RESPONSIVE FOR SMALL SCREEN************/
+
+@media screen and (max-width:500px) {
+    .header {
+        height: 115vh;
+    }
+
+    .logo {
+        font-size: 5.8vw;
+    }
+
+    nav ul li {
+        font-size: 3vw;
+    }
+
+    .main {
+        grid-gap: 3vw;
+    }
+
+    .advent {
+        font-size: 10.4vw;
+    }
+
+    .join {
+        font-size: 6vw;
+    }
+
+    .para {
+        font-size: 4vw;
+        width: 68vw;
+        margin-left: 15.7vw;
+    }
+
+    .subs {
+        margin-top: 20px;
+    }
+
+    #email {
+        padding: 2.7vw 3.8vw;
+        width: 40vw;
+        border-radius: 1vw;
+    }
+
+    #email::placeholder {
+        font-size: 3.5vw;
+    }
+
+    .btn {
+        padding: 2.6vw 2vw;
+        font-size: 3.4vw;
+        border-radius: 1vw;
+    }
+
+    .heading {
+        font-size: 7.9vw;
+    }
+
+    .recent {
+        height: 264vw;
+    }
+
+    .card1 {
+        width: 57vw;
+    }
+
+    .grid-sec {
+        grid-template-columns: auto;
+        grid-gap: 7.9vw;
+        margin-top: 8vw;
+    }
+
+    .img-deal {
+        width: 57vw;
+        height: 36vw;
+    }
+
+    .word {
+        font-size: 3.3vw;
+    }
+
+    .s-word {
+        font-size: 2.3vw;
+    }
+
+    .works {
+        height: 210vw;
+    }
+
+    .how {
+        font-size: 7.9vw;
+    }
+
+    .card2 {
+        width: 57vw;
+    }
+
+    .flexx {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-gap: 8.5vw;
+        margin-top: 5vw;
+    }
+
+    .img-work {
+        width: 57vw;
+        height: 36vw;
+    }
+
+    .works1 {
+        font-size: 3.4vw;
+    }
+
+    .s-work {
+        font-size: 2.4vw;
+    }
+
+    .signup {
+        height: 135.5vw;
+        background-size: cover;
+    }
+
+    .source {
+        width: 69vw;
+    }
+
+    .sign-save {
+        font-size: 10vw;
+    }
+
+    .your {
+        font-size: 5.9vw;
+    }
+
+    .line {
+        font-size: 4vw;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .popular {
+        width: 100%;
+        height: 346vw;
+    }
+
+    .destin {
+        font-size: 7.9vw;
+    }
+
+    .country {
+        grid-gap: 12.8vw 5.5vw;
+        display: grid;
+        grid-template-columns: repeat(8, 8.3vw);
+        grid-template-rows: repeat(8, 2.5vw);
+        margin-top: 5vw;
+        justify-content: center;
+    }
+
+
+    .explore {
+        font-size: 5.6vw;
+    }
+
+    .box1 {
+        position: "relative";
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .box2 {
+        position: "relative";
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+
+    .box3 {
+        position: "relative";
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 9;
+        grid-row-end: 13;
+    }
+
+    .box4 {
+        position: "relative";
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 13;
+        grid-row-end: 17;
+    }
+
+    .box5 {
+        position: "relative";
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 17;
+        grid-row-end: 21;
+    }
+
+    .across {
+        height: 58vw;
+    }
+
+    .popular1 {
+        font-size: 4.7vw;
+    }
+
+    .early {
+        margin-top: 9vw;
+    }
+
+    .class {
+        font-size: 1.7vw;
+        width: 15vw;
+    }
+
+    .foot {
+        height: 39vw;
+    }
+
+    .paragr {
+        padding-top: 3.4vw;
+        font-size: 2.6vw;
+    }
+
+    .bot {
+        margin-top: 6vw;
+    }
+
+    .cont {
+        padding: 1.8vw 2.3vw;
+        font-size: 2.9vw;
+    }
+
+    .logo2 {
+        font-size: 5.1vw;
+    }
+
+}
